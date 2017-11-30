@@ -19,7 +19,7 @@
 
 #top li {
   font-size: 18px;
-  margin: 15px;
+  margin: 15px 0;
 }
 
 #main h2, h3, p {
@@ -40,4 +40,33 @@
   font-size: 23px;
   font-weight: bold;
   color: white;
+}
+
+#main li {
+  color: dimgrey;
+  font-size: 14px;
+  margin: 15px 0;
+  list-style: none;
+}
+
+#bottom {
+  background-color: dimgrey;
+}
+
+#bottom ul {
+  display: inline;
+  background-color: dimgrey;
+}
+
+#copy {
+  color: white;
+  font-size: 11px;
+  display: inline;
+  float: left;
+}
+
+#bottom li {
+  list-style: none;
+  float: left;
+  margin: 0 5px;
 }
